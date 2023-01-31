@@ -1,0 +1,7 @@
+name = "gatekeeper-cf"
+main = "src/index.ts"
+compatibility_date = "2023-01-31"
+
+[vars]
+CLIENT_ID = "9b2113f71250cdc13f77"
+AUTH_URL = "https://github.com/login/oauth/access_token"
