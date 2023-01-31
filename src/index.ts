@@ -1,9 +1,8 @@
 export interface Env {
-	AUTH_URL: string
-  CLIENT_ID: string
+	AUTH_URL: string,
+	CLIENT_ID: string,
 	CLIENT_SECRET: string
 }
-
 
 export default {
 	async fetch(
