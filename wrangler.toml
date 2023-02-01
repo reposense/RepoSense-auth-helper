@@ -1,4 +1,4 @@
-name = "gatekeeper-cf"
+name = "reposense-auth-helper"
 main = "src/index.ts"
 compatibility_date = "2023-01-31"
 
