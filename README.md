@@ -13,3 +13,10 @@ CLIENT_SECRET=<YOUR_CLIENT_SECRET_HERE>
 ```
 
 Refer to the [Cloudflare guide](https://developers.cloudflare.com/workers/get-started/guide/) to learn how to run the worker locally.
+
+## Publishing
+Before publishing the worker, we need to define the environment secret by running the following command:
+```
+wrangler secret put CLIENT_SECRET
+```
+See the [Cloudflare docs](https://developers.cloudflare.com/workers/platform/environment-variables/#secrets-on-deployed-workers) for more information.
